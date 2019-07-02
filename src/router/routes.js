@@ -53,9 +53,9 @@ const frameIn = [
         component: _import('demo/page3')
       },
       {
-        path: '/page-demo',
+        path: 'page-demo',
         name: 'page-demo',
-        component: () => _import('@/pages/page-demo'),
+        component: () => import('@/pages/page-demo'),
         meta: {
           auth: true, 
           title: '新建示例'

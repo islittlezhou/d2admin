@@ -20,7 +20,7 @@ module.exports = {
     "no-trailing-spaces": 0
   },
   parserOptions: {
-    // parser: 'babel-eslint'
+    // parser: 'babel-eslint'   
      plugins: ['@babel/plugin-proposal-class-properties', '@babel/plugin-proposal-export-default-from'],
   }
 }
